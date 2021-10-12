@@ -1,14 +1,16 @@
 {
-    "name": "simgroep/guzzle-felix-api",
-    "type": "project",
-    "require": {
-        "guzzlehttp/guzzle": "7.4.x-dev"
-    },
-    "authors": [
-        {
-            "name": "Kevin de Heer",
-            "email": "k.deheer@simgroep.nl"
-        }
-    ],
-    "minimum-stability": "dev"
+  "name": "simgroep/guzzle-felix-api",
+  "type": "project",
+  "require": {
+    "guzzlehttp/guzzle": "7.4.x-dev",
+    "ext-curl": "*",
+    "ext-json": "*"
+  },
+  "authors": [
+    {
+      "name": "Kevin de Heer",
+      "email": "k.deheer@simgroep.nl"
+    }
+  ],
+  "minimum-stability": "dev"
 }
